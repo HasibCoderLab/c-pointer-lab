@@ -1,24 +1,40 @@
 
-// ================================================            
+// ================================================
 //               * Language: C
-//               * Topic: Pointer               
+//               * Topic: Pointer
 // =================================================
 
 // pointer example  1️⃣
+// #include <stdio.h>
+// int main(){
+//      int age = 20 ;
+//      int *ptr  = &age;
+//      int _age = *ptr ;
+//      printf(" Output is %d\n" , _age);
+//     return 0;
+// }
+
+//   Address Print
+
 #include <stdio.h>
-int main(){
-     int age = 20 ;
-     int *ptr  = &age;
-     int _age = *ptr ;
-     printf(" Output is %d\n" , _age);
+int main()
+{
+    int age = 10;
+    int *ptr = &age;
+    int _age = *ptr;
+    // printf("Output is %p\n" ,&age );
+    printf("Output is %u\n", &ptr); //  Different
+    printf("Output is %u\n", ptr);
+    printf("Output is %u\n", &age);
+
     return 0;
 }
 
 // #include <stdio.h>
 // int main(){
 
-    // return 0;
-// } 
+// return 0;
+// }
 // Add pointer example 01 in C
 
 // Emoji
