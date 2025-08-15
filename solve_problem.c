@@ -15,7 +15,13 @@ int main()
     printf("a = %d\n", a);       // value of a  =  0;
     printf("*ptr = %d\n", *ptr); // value of ptr = 0;
 
+    //    2nd part
     *ptr = *ptr + 5; // *ptr += 5 ;
+    printf("a = %d\n", a);
+    printf("*ptr = %d\n", *ptr);
+
+    // 3rd part
+    (*ptr)++;
     printf("a = %d\n", a);
     printf("*ptr = %d\n", *ptr);
 
