@@ -11,9 +11,13 @@ int main()
     int a;
 
     ptr = &a;
-    *ptr = 0; //  output is 0;
-    printf("a = %d\n", a); // value of a  =  0;
+    *ptr = 0;                    //   Store 0 ;
+    printf("a = %d\n", a);       // value of a  =  0;
     printf("*ptr = %d\n", *ptr); // value of ptr = 0;
+
+    *ptr = *ptr + 5; // *ptr += 5 ;
+    printf("a = %d\n", a);
+    printf("*ptr = %d\n", *ptr);
 
     return 0;
 }
