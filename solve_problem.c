@@ -3,24 +3,20 @@
 //                    Topic : C Programming - Pointer
 //  ============================================================
 
-
-// 👉👉  🔹🔹Qu - 1️⃣  
-
+// 👉👉  🔹🔹Qu - 1️⃣
 #include <stdio.h>
-int main(){
-    int a;
+int main()
+{
     int *ptr;
+    int a;
+
     ptr = &a;
-    *ptr = 0; // a = 0
-    printf("a  = %d\n" , a); // Value of a is 0 ; 
-    printf("*ptr = %d\n" , *ptr); // value of *ptr is 0 ;
+    *ptr = 0; //  output is 0;
+    printf("a = %d\n", a); // value of a  =  0;
+    printf("*ptr = %d\n", *ptr); // value of ptr = 0;
+
     return 0;
 }
-
-
-
-
-
 
 // Emoji
 // 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
