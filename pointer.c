@@ -30,22 +30,36 @@
 //     return 0;
 // }
 
-//  Print value 
-#include <stdio.h>
-int main(){
-int age = 12 ;
-int *ptr = &age ;
-int _age = *ptr;
-printf("Output is : %d\n", age);
-printf("Output is : %d\n" , *ptr);
-printf("Output is : %d\n" , *(&age)) ;
-return 0;
-}
+//  Print value
+// #include <stdio.h>
+// int main(){
+// int age = 12 ;
+// int *ptr = &age ;
+// int _age = *ptr;
+// printf("Output is : %d\n", age);
+// printf("Output is : %d\n" , *ptr);
+// printf("Output is : %d\n" , *(&age)) ;
+// return 0;
+// }
 
+// ================================================
+//               * Language: C
+//               * Topic: Pointer  to Pointer
+// =================================================
+
+// pointer example  2️⃣ 
+
+#include <stdio.h>
+int main()
+{
+    int price = 100;
+    int *ptr = &price;
+    int **pptr = *ptr;
+    return 0;
+}
 
 // #include <stdio.h>
 // int main(){
 
-    // return 0;
-    // }
-
+// return 0;
+// }
