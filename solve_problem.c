@@ -34,14 +34,14 @@
 // 👉👉  🔹🔹Qu - 2️⃣  print the value of 'i' froms it pointer to pinter  
 
 
-#include <stdio.h>
-int main(){
-   int i = 5;
-   int *ptr = &i;
-   int **pptr = &ptr ;
-   printf("Value of **pptr = :%d\n : " , **pptr); 
-    return 0;
-}
+// #include <stdio.h>
+// int main(){
+//    int i = 5;
+//    int *ptr = &i;
+//    int **pptr = &ptr ;
+//    printf("Value of **pptr = :%d\n : " , **pptr); 
+//     return 0;
+// }
 
 
 

@@ -49,13 +49,29 @@
 
 // pointer example  2️⃣ 
 
+// #include <stdio.h>
+// int main()
+// {
+//     int price = 100;
+//     int *ptr = &price;
+//     int **pptr = &ptr;
+//     return 0;
+// }
+
+//  3️⃣   Call by value  
+
 #include <stdio.h>
-int main()
-{
-    int price = 100;
-    int *ptr = &price;
-    int **pptr = &ptr;
-    return 0;
+void num(int n);
+int main(){
+int number = 10;
+num(number);
+printf("Number is %d\n" , number );
+return 0;
+}
+
+void num(int n){
+    n = n*n;
+    printf("Square  is %d\n " , n);
 }
 
 // #include <stdio.h>
