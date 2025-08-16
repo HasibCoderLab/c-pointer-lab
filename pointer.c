@@ -54,7 +54,7 @@ int main()
 {
     int price = 100;
     int *ptr = &price;
-    int **pptr = *ptr;
+    int **pptr = &ptr;
     return 0;
 }
 
